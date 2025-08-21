@@ -36,7 +36,7 @@ function App() {
     const resetPreviewImage = () => {
       menuPreviewImg.innerHTML = "";
       const defaultPreviewImg = document.createElement("img");
-      defaultPreviewImg.src = "/slider_img_01.jpg";
+      defaultPreviewImg.src = "/slide-img-1.jpg";
       menuPreviewImg.appendChild(defaultPreviewImg);
     };
 
@@ -233,28 +233,28 @@ function App() {
           <div className="menu-items">
             <div className="col-lg">
               <div className="menu-preview-img" ref={menuPreviewImgRef}>
-                <img src="/slider_img_01.jpg" alt="" />
+                <img src="/slide-img-1.jpg" alt="" />
               </div>
             </div>
             <div className="col-sm">
               <div className="menu-links">
                 <div className="link">
-                  <a href="#" data-img="/slider_img_01.jpg" ref={el => menuLinksRef.current[0] = el}>
+                  <a href="#" data-img="/slide-img-1.jpg" ref={el => menuLinksRef.current[0] = el}>
                     Visions
                   </a>
                 </div>
                 <div className="link">
-                  <a href="#" data-img="/slider_img_02.jpg" ref={el => menuLinksRef.current[1] = el}>
+                  <a href="#" data-img="/slide-img-2.jpg" ref={el => menuLinksRef.current[1] = el}>
                     Core
                   </a>
                 </div>
                 <div className="link">
-                  <a href="#" data-img="/slider_img_03.jpg" ref={el => menuLinksRef.current[2] = el}>
+                  <a href="#" data-img="/slide-img-3.jpg" ref={el => menuLinksRef.current[2] = el}>
                     Signals
                   </a>
                 </div>
                 <div className="link">
-                  <a href="#" data-img="/slider_img_04.jpg" ref={el => menuLinksRef.current[3] = el}>
+                  <a href="#" data-img="/slide-img-4.jpg" ref={el => menuLinksRef.current[3] = el}>
                     Connect
                   </a>
                 </div>
